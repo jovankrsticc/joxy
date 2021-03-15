@@ -187,7 +187,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         dodajObjekat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MapsActivity.this, DodajObjekatActivity.class));
+                startActivity(new Intent(MapsActivity.this, AddObjectActivity.class));
                 //finish();
             }
         });

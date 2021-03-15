@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DodajObjekatActivity">
+    tools:context=".AddObjectActivity">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:enabled="false"
         android:focusable="false"
-        android:id="@+id/editTextLatitudeKorisnika">
+        android:id="@+id/editTextUserLat">
     </EditText>
     <EditText
         android:layout_width="match_parent"
@@ -20,19 +20,19 @@
         android:layout_margin="16dp"
         android:enabled="false"
         android:focusable="false"
-        android:id="@+id/editTextLongitudeKorisnika">
+        android:id="@+id/editTextUserLong">
     </EditText>
     <EditText
-        android:id="@+id/nazivObjekta"
+        android:id="@+id/objName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="Naziv lokacije">
+        android:hint="Naziv objekta">
     </EditText>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/dodajNoviObjekat"
+        android:id="@+id/addObj"
         android:layout_margin="16dp"
         android:text="+">
     </Button>
